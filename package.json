@@ -1,0 +1,11 @@
+{
+  "name": "ngnix-node",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "cdaringe",
+  "license": "MIT",
+  "scripts": {
+    "build": "docker build . -t cdaringe/nginx-node",
+    "publish": "docker push cdaringe/nginx-node"
+  }
+}
